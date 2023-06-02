@@ -49,8 +49,8 @@ namespace DiscourseExamples
                     var pt0 = crv0.PointAtNormalizedLength(t0);
                     var pt1 = crv1.PointAtNormalizedLength(t1);
                     
-                    RhinoApp.WriteLine("Max: {0:N3}, MaxT0: {1:N3}, MaxT1: {1:N3}.", max, maxT0, maxT1);
-                    RhinoApp.WriteLine("t Delta - Crv0: {0:N3}, Crv0: {1:N3}", d0, d1);
+                    RhinoApp.WriteLine("Max: {0:N3}, MaxT0: {1:N3}, MaxT1: {2:N3}.", max, maxT0, maxT1);
+                    RhinoApp.WriteLine("Domain - Crv0: {0:N3}, Crv0: {1:N3}", d0, d1);
                     RhinoApp.WriteLine("Normalized t - Crv0: {0:N3}, Crv1: {1:N3}", t0, t1);
 
                     var line = new Line(pt0, pt1);
