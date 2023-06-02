@@ -56,6 +56,7 @@ namespace DiscourseExamples
                     var line = new Line(pt0, pt1);
                     doc.Objects.AddLine(line);
                     RhinoApp.WriteLine("Distance from Pts at Normalized t's: {0:N3}", line.Length);
+                    doc.Views.Redraw();
                     
                 }
                 
